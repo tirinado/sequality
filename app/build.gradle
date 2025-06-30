@@ -36,5 +36,5 @@ application {
 }
 
 tasks.withType(JavaCompile) {
-    options.ending = 'UTF-8'
+  options.encoding = 'UTF-8'
 }
